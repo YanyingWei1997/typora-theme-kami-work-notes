@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SUEnableAutomaticChecks</key>
+	<false/>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2025-06-17T13:31:31Z</date>
+	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>WKWebView_ver</key>
+	<string>21624.5.1.11.3</string>
+	<key>WebAutomaticDashSubstitutionEnabled</key>
+	<false/>
+	<key>WebAutomaticQuoteSubstitutionEnabled</key>
+	<false/>
+	<key>WebKitDeveloperExtras</key>
+	<false/>
+	<key>allowPhysicsConflict</key>
+	<true/>
+	<key>auto_numbering_for_math</key>
+	<string>all</string>
+	<key>backgroundColor</key>
+	<string>rgba(255, 248, 237, 256)</string>
+	<key>backgroundColor2</key>
+	<array>
+		<real>255.0</real>
+		<real>248.0</real>
+		<real>237.0</real>
+		<real>1.0</real>
+	</array>
+	<key>copy_markdown_by_default</key>
+	<true/>
+	<key>darkTheme</key>
+	<string>Night</string>
+	<key>enable_highlight</key>
+	<true/>
+	<key>enable_inline_math</key>
+	<true/>
+	<key>enable_subscript</key>
+	<true/>
+	<key>enable_superscript</key>
+	<true/>
+	<key>hasThemeFolder</key>
+	<true/>
+	<key>initialize_ver</key>
+	<string>1.7.5</string>
+	<key>noHintForOpenLink</key>
+	<true/>
+	<key>noWarnigForDeleteFile</key>
+	<true/>
+	<key>no_line_wrapping</key>
+	<false/>
+	<key>preLinebreakOnExport</key>
+	<true/>
+	<key>schemeAwareness</key>
+	<false/>
+	<key>send_usage_info</key>
+	<true/>
+	<key>show_line_numbers_for_fence</key>
+	<false/>
+	<key>sidebar_tab</key>
+	<string>outline</string>
+	<key>strict_mode</key>
+	<true/>
+	<key>theme</key>
+	<string>Kami Work Notes</string>
+	<key>useDarkTheme</key>
+	<false/>
+	<key>useTreeStyle</key>
+	<false/>
+	<key>use_seamless_window</key>
+	<true/>
+	<key>verInitTime</key>
+	<date>2025-01-11T15:08:41Z</date>
+</dict>
+</plist>
