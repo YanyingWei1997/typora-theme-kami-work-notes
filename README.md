@@ -92,7 +92,7 @@ thumbnails/             主题站用 250×200 缩略图
 backup/                 作者本机的 Typora 配置备份，与主题无关，可忽略
 ```
 
-`backup/` 里是个人备份：清洗过的偏好设置、粘贴图片、其他在用主题、还原与同步脚本。安装本主题**不需要**这部分内容，见 [backup/README.md](backup/README.md)。
+`backup/` 里是个人备份：清洗过的偏好设置、其他在用主题、还原与同步脚本。文档里粘贴的图片与截图属于文档资产，**不纳入公开仓库**，只保留在本地（`~/Library/Application Support/typora-user-images/`）。安装本主题**不需要**这部分内容，见 [backup/README.md](backup/README.md)。
 
 ## License
 

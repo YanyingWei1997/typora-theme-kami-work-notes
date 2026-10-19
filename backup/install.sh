@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# 把本仓库 backup/ 里的 Typora 配置还原到当前 Mac（含主题与粘贴图片）。
+# 把本仓库 backup/ 里的 Typora 配置还原到当前 Mac（主题 + 偏好设置）。
 set -euo pipefail
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 BK="$REPO/backup"
 THEME_DIR="$HOME/Library/Application Support/abnerworks.Typora/themes"
-IMG_DIR="$HOME/Library/Application Support/typora-user-images"
 PREFS="$HOME/Library/Preferences/abnerworks.Typora.plist"
 
 echo "==> 还原 Typora 配置"
@@ -20,13 +19,6 @@ for f in "$REPO/kami-work-notes.css" "$BK"/themes/*.css; do
   cp "$f" "$THEME_DIR/$(basename "$f")"
   echo "    $(basename "$f")"
 done
-
-if [ -d "$BK/typora-user-images" ]; then
-  echo "==> 粘贴图片 → $IMG_DIR"
-  mkdir -p "$IMG_DIR"
-  cp "$BK/typora-user-images"/*.png "$IMG_DIR"/ 2>/dev/null || true
-  echo "    $(find "$BK/typora-user-images" -name '*.png' | wc -l | tr -d ' ') 张"
-fi
 
 if [ -f "$BK/settings/abnerworks.Typora.plist" ]; then
   echo "==> 备份现有偏好设置"

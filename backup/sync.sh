@@ -5,7 +5,6 @@ REPO="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO"   # 后面的相对路径都基于仓库根目录
 BK="$REPO/backup"
 APP_SUPPORT="$HOME/Library/Application Support/abnerworks.Typora"
-IMG_DIR="$HOME/Library/Application Support/typora-user-images"
 PREFS="$HOME/Library/Preferences/abnerworks.Typora.plist"
 
 echo "==> 同步主题"
@@ -22,13 +21,6 @@ for f in animal-island.css animal-island-dark.css spring.css; do
     echo "    跳过（本机不存在）: $f"
   fi
 done
-
-echo "==> 同步粘贴图片"
-mkdir -p "$BK/typora-user-images"
-if compgen -G "$IMG_DIR/*.png" >/dev/null; then
-  cp "$IMG_DIR"/*.png "$BK/typora-user-images/"
-  echo "    $(find "$BK/typora-user-images" -name '*.png' | wc -l | tr -d ' ') 张"
-fi
 
 echo "==> 导出并清洗偏好设置"
 python3 - <<'PY'

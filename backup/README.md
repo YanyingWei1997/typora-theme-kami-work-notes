@@ -8,10 +8,11 @@
 settings/abnerworks.Typora.plist   清洗后的偏好设置（可直接导入）
 settings/Typora-Settings.md        设置项可读清单
 themes/                            另外三个在用主题（animal-island ×2、spring）
-typora-user-images/                文档里粘贴的图片资源（17 张，约 4.3 MB）
 install.sh                         一键还原到本机
 sync.sh                            把本机当前设置重新导出并提交推送
 ```
+
+**不含 `typora-user-images`**：文档里粘贴的图片属于文档资产，可能包含未发表稿件，因此不进入公开仓库，只留在本机 `~/Library/Application Support/typora-user-images/`。
 
 ## 已剔除的字段
 
